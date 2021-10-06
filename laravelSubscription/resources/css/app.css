@@ -1,0 +1,63 @@
+
+html, body {
+     font-family: 'Nunito', sans-serif;
+     height: 100%;
+     color:white;
+ }
+body{
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #518EBD; 
+    background: -webkit-linear-gradient(to left, #C2DFFF, #518EBD);  
+    background: linear-gradient(to left, #C2DFFF, #518EBD); 
+}
+.m-b-md {
+    margin-bottom: 30px;
+} 
+.text-center .h1{
+    font-size: 20px;
+    color: rgb(160, 129, 106);
+    font-weight: bold;
+    
+}
+.text-center .h2{
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+}
+.text-center .p{
+    font-size: 15px;
+    color: #000000;
+}
+.form-control{
+    font-size: 20px;
+    background-color: rgba(255, 255, 255);
+    border:0;
+    padding: 10px 15px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.btn{
+    font-size: 20px;
+    border: 0;
+    background-color:rgb(160, 129, 106);
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color:rgba( 81, 142, 189, 0.3);
+    
+}
